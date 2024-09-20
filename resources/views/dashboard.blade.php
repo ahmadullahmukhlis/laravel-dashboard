@@ -4,7 +4,12 @@
 
     </x-slot>
     <x-slot:header>
-        <x-header />
+        <x-header >
+            <x-slot:menu>
+                <x-menu/>
+            </x-slot>
+          
+        </x-header>
     </x-slot>
 
     <div class="d-flex flex-column flex-column-fluid">

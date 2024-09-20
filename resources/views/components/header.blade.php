@@ -4,7 +4,7 @@
         <x-header-logo/>
         <!--begin::Navbar-->
         <div class="app-navbar flex-grow-1 justify-content-end" id="kt_app_header_navbar">
-            <x-menu/>
+           {{ $menu }}
             <!--begin::Notifications-->
             <div class="app-navbar-item ms-2 ms-lg-6">
                 <!--begin::Menu- wrapper-->

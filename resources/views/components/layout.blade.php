@@ -3,7 +3,7 @@
     <!--begin::Head-->
     <head>
         <title>{{ $title }}</title>
-        <x-head />
+        {{ $head }}
     </head>
     <!--end::Head-->
 
@@ -51,7 +51,7 @@
             <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
                 <!--begin::Header-->
                 <header>
-                    <x-header />
+                   {{ $header }}
                 </header>
                 <!--end::Header-->
 
